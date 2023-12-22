@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Template",
+    "author": "Gideon Tweeddale",
+    "version": "2023.12.1",
+    "description": "Vite, Typescript, Tailwind, template for Chrome Extension Development",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    }   
+} 
